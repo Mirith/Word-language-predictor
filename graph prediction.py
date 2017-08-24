@@ -2,7 +2,7 @@
 """
 Created on Sun Jun 18 08:55:51 2017
 
-@author: Mirith
+@author: Mirith 
 
 Info: given a trained network that predicts the language of a word, this will use that information to plot language similarity to English.  
 
