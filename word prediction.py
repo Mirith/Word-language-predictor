@@ -24,9 +24,8 @@ from sklearn.externals import joblib
 
 
 ###############################################
-# ?????????????????????????????????????????????
-# professor gave this as example
-# presumably chunking data into trigrams by language...
+# presumably chunking data into trigrams by language name with regex
+# this was not written by me
 encoding = r"-([^-]+)$"
 triplets = set([])
 encodings = []
@@ -77,6 +76,7 @@ pred_test = text_pred.predict(words_test)
 print("testing set score:", accuracy_score(langs_test, pred_test))
 
 ###############################################
-# dumping trained network
+# dumping trained network/saving it for later
+# use whatever path you want to save to, not the one here
 dump_dir = "C:/Users/________/Documents/text_pred.pkl"
 joblib.dump(text_pred, dump_dir)
