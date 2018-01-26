@@ -10,13 +10,13 @@ Uses a neural network to predict the language of a single word.  It uses [nltk's
 
 # Usage
 
-You'll need python (this was done in python 3).  And a heck of a lot of time.  But at the end you'll have a trained network!  Or you could just look at the pretty pictures on [github](https://github.com/Mirith/word-language-prediction) as well...  If you want the trained analyzer, it's [here](https://drive.google.com/file/d/0ByNf-Gd6Z75pMm9JamZKaVlKa0U/view?usp=sharing).  It's almost a gigabyte and was way past githubs upload limits.  
+You'll need python (this was done in python 3).  And a heck of a lot of time.  But at the end you'll have a trained network!  Or you could just look at the pretty pictures on [github](https://github.com/Mirith/word-language-prediction) as well...  If you want the trained analyzer, it's [here](https://drive.google.com/file/d/0ByNf-Gd6Z75pMm9JamZKaVlKa0U/view?usp=sharing).  It's almost a gigabyte and was way past GitHub's upload limits.  
 
 # Files
 
 ## word prediction.py
 
-This file loads the data, splits it and trains a neural network.  It takes a very, very long time.  I have optimized a few parameters with [gridsearch](http://scikit-learn.org/stable/modules/grid_search.html) from I think sklearn?  
+This file loads the data, splits it into training/testing sets, and trains a neural network.  It takes a very, very long time.  I trained it on a laptop though, with 4GB RAM and a 2.4 Ghz CPU, so the time to train it might differ.  Especially if you use another dataset.  I have optimized a few parameters with [gridsearch](http://scikit-learn.org/stable/modules/grid_search.html).  
 
 ## graph prediction.py
 
