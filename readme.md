@@ -4,6 +4,8 @@
 
 Uses a neural network to predict the language of a single word.  It uses [nltk's](http://www.nltk.org/) [uhdr](http://research.ics.aalto.fi/cog/data/udhr/) (Universal Declaration of Human Rights).  Also [sklearn](http://scikit-learn.org/stable/modules/classes.html) for the machine learning bit, and its [joblib](https://pythonhosted.org/joblib/generated/joblib.load.html#joblib.load) to save and load trained models.  For the graphing, it uses [numpy and scipy](https://docs.scipy.org/doc/) and [matplotlib](https://matplotlib.org/).  
 
+Accuracy is only about 35%, due to the fact that some words belong to multiple languages, and single-word analysis is not a robust analysis for this project.  To boost accuracy, a bigram or trigram model would probably perform much better.  
+
 
 
 **Note**:  Some bits of code were pulled from online, and I forgot to source one of them.  It's in graph prediction.py and is apparently called [Jensen-Shannon divergence](https://stackoverflow.com/questions/15880133/jensen-shannon-divergence)...  If I ever find the source I'll update stuff.  
