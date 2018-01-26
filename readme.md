@@ -1,4 +1,4 @@
-**Last updated on August 24th, 2017** by [Mirith](https://github.com/Mirith)
+**Code last updated on August 24th, 2017** by [Mirith](https://github.com/Mirith)
 
 # Overview
 
